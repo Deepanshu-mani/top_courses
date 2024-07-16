@@ -10,7 +10,7 @@ const Filter = (props) => {
     }
 
   return (
-    <div className="bg-[#6C757D] flex justify-center gap-10 text-[#f8f9fa] border-[2px] border-solid border-[#343A40]  text-lg my-2 mb-5 ">
+    <div className="bg-[#6C757D] flex flex-wrap max-w-max justify-center gap-10 text-[#f8f9fa] border-[2px] border-solid border-[#343A40]  text-lg my-2 mb-5 ">
       {
         filterData.map( (data) => (
             <button
